@@ -1,6 +1,6 @@
 # weatherapp
 
-A new Flutter project.
+A simple Flutter project that displays the weather of the entered location.
 
 ## Getting Started
 

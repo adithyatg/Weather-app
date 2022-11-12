@@ -70,9 +70,9 @@ class _DemoState extends State<Demo> {
                     Text("\n\n\n"),
                     Text("Name of place: "+_response.cityName),
                     Text("Temperature in F: "+_response.tempInfo.temperature),
-                    if(_response.weatherInfo.description=="Clouds" || _response.weatherInfo.description=="Haze" ||_response.weatherInfo.description=="Smoke")
+                    if(_response.weatherInfo.description=="Clouds" || _response.weatherInfo.description=="Haze" ||_response.weatherInfo.description=="Smoke" || _response.weatherInfo.description=="Mist")
                       Text("Weather: "+_response.weatherInfo.description+"\n\n"),
-                    if(_response.weatherInfo.description=="Clouds" || _response.weatherInfo.description=="Haze" || _response.weatherInfo.description=="Smoke")
+                    if(_response.weatherInfo.description=="Clouds" || _response.weatherInfo.description=="Haze" || _response.weatherInfo.description=="Smoke" || _response.weatherInfo.description=="Mist")
                       new Image.asset(
                         'images/cloudy.jpg',
                         width: 700.0,
